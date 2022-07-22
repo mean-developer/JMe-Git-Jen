@@ -650,7 +650,7 @@ vars.put(&quot;resultFileName&quot;, resultFileName);
         </BeanShellSampler>
         <hashTree/>
         <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="[IC] Login" enabled="true">
-          <stringProp name="IncludeController.includepath">C:\Apps\Jenkins\workspace\MYTEST\Add-API\Login\scripts\instant-token.jmx</stringProp>
+          <stringProp name="IncludeController.includepath">D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Login\scripts\instant-token.jmx</stringProp>
         </IncludeController>
         <hashTree/>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
@@ -734,7 +734,7 @@ vars.put(&quot;pincode&quot;,pincode);
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="DataFile" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">C:/Apps/Jenkins/workspace/MYTEST/Add-API/Branch/data/master-data.csv</stringProp>
+            <stringProp name="filename">D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\data\master-data.csv</stringProp>
             <boolProp name="ignoreFirstLine">false</boolProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">false</boolProp>
