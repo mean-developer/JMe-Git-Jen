@@ -1,0 +1,445 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1658480708178,28,PreProcessor,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480708383,243,instant-token,200,OK,[TG] Axon-Master-FT 1-1,text,true,,602,1752,1,1,http://192.168.0.206/axon-node/auth/instant_token,237,0,63
+1658480708688,1100,login,200,OK,[TG] Axon-Master-FT 1-1,text,true,,1207,733,1,1,http://192.168.0.206/axon-node/auth/login,1100,0,0
+1658480709806,45,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,45,0,0
+1658480709868,17,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,16900,0,1,1,null,0,0,0
+1658480709886,25,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710173,37,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710210,16,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710226,2,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17046,0,1,1,null,0,0,0
+1658480710229,25,add-Unit-AC-0,200,"002: AC-0: Expected message Record added successfully, got Record added successfully::: TEST PASSED, Setting Response to OK
+Error_Comment :-  Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1173,1,1,http://192.168.0.206/axon-node/admin/masters/units/,25,0,0
+1658480710265,12,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710277,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,0
+1658480710289,5,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17131,0,1,1,null,0,0,0
+1658480710294,28,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710345,15,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710360,25,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710386,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17144,0,1,1,null,0,0,0
+1658480710388,186,add-Unit-AC-1,200,"001: AC-1 : Expected responseCode 400, got 400::: TEST PASSED, Setting Response to OK:
+Error_Comment :-The Request fail due to Invalid Unit Name.***Unit Name Not Accepting Unique Name***",[TG] Axon-Master-FT 1-1,text,true,,445,1178,1,1,http://192.168.0.206/axon-node/admin/masters/units/,186,0,0
+1658480710578,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710580,12,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5150,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,12,0,2
+1658480710594,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17141,0,1,1,null,0,0,0
+1658480710596,13,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710627,13,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710640,3,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710643,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17176,0,1,1,null,0,0,0
+1658480710645,9,add-Unit-AC-2,200,"001: AC-2 : Expected responseCode 400, got 400::: TEST PASSED, Setting Response to OK:
+Error_Comment :- The Request Fail due to invalid unitName.***unitName Accepting Numeric  Values***",[TG] Axon-Master-FT 1-1,text,true,,384,1173,1,1,http://192.168.0.206/axon-node/admin/masters/units/,9,0,0
+1658480710659,3,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710663,15,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5150,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,15,0,2
+1658480710680,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17118,0,1,1,null,0,0,0
+1658480710681,13,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710711,14,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710725,4,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710729,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17153,0,1,1,null,0,0,0
+1658480710731,8,add-Unit-AC-3,200,"001: AC-3 : Expected responseCode 400, got 400::: TEST PASSED, Setting Response to OK:
+Error_Comment :-   The Request Fail due to invalid unitName.***unitName Accepting  alphanumeric Value***",[TG] Axon-Master-FT 1-1,text,true,,386,1175,1,1,http://192.168.0.206/axon-node/admin/masters/units/,8,0,0
+1658480710744,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710747,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5150,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,1
+1658480710759,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17106,0,1,1,null,0,0,0
+1658480710760,12,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710793,14,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710808,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710810,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17141,0,1,1,null,0,0,0
+1658480710811,4,add-Unit-AC-4,200,"001: AC-4 : Expected responseCode 400, got 400::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  The Request Fail due to invalid unitName.***unitName should be min 3 characters***",[TG] Axon-Master-FT 1-1,text,true,,378,1167,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480710825,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710828,11,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5150,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,11,0,1
+1658480710840,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17139,0,1,1,null,0,0,0
+1658480710841,12,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710871,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710875,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710877,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17174,0,1,1,null,0,0,0
+1658480710879,8,add-Unit-AC-5,200,"005b: AC-5: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :- The Request Fail due to invalid unitName.***unitName Accepting More Than 20  Charecters***",[TG] Axon-Master-FT 1-1,text,false,,380,1193,1,1,http://192.168.0.206/axon-node/admin/masters/units/,8,0,0
+1658480710894,3,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480710898,197,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,197,0,0
+1658480711096,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17132,0,1,1,null,0,0,0
+1658480711098,12,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711123,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711128,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711130,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17167,0,1,1,null,0,0,0
+1658480711131,5,add-Unit-AC-6,200,"001: AC-6 : Expected responseCode 400, got 400::: TEST PASSED, Setting Response to OK:
+Error_Comment :-   The Request Fail due to invalid unitName.***unitName Accepting special characters***",[TG] Axon-Master-FT 1-1,text,true,,391,1180,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480711142,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711144,12,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5150,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,12,0,2
+1658480711161,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17099,0,1,1,null,0,0,0
+1658480711162,10,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711189,7,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711196,3,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711206,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17134,0,1,1,null,0,0,0
+1658480711208,3,add-Unit-AC-7,200,"001: AC-7 : Expected responseCode 400, got 400::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  The Request Fail due to invalid unitName.***unitName Accepting empty value***",[TG] Axon-Master-FT 1-1,text,true,,376,1165,1,1,http://192.168.0.206/axon-node/admin/masters/units/,3,0,0
+1658480711214,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711217,11,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5150,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,11,0,2
+1658480711229,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17095,0,1,1,null,0,0,0
+1658480711230,4,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711248,9,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711257,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711259,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17131,0,1,1,null,0,0,0
+1658480711260,4,add-Unit-AC-8,200,"005b: AC-8: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail Due To Invalid unit code.***Unit Code Accepting only Alphabates ***",[TG] Axon-Master-FT 1-1,text,false,,380,1172,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480711269,3,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711273,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480711283,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17101,0,1,1,null,0,0,0
+1658480711284,6,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711310,5,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711316,7,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711323,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17137,0,1,1,null,0,0,0
+1658480711325,4,add-Unit-AC-9,200,"005b: AC-9: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail Due To Invalid unit code.***Unit Code Accepting only Numbers ***",[TG] Axon-Master-FT 1-1,text,false,,380,1171,1,1,http://192.168.0.206/axon-node/admin/masters/units/,3,0,0
+1658480711332,5,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711338,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,0
+1658480711349,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17073,0,1,1,null,0,0,0
+1658480711350,7,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711372,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711377,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711378,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17109,0,1,1,null,0,0,0
+1658480711379,4,add-Unit-AC-10,200,"001: AC-10 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1172,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480711387,3,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711392,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480711406,2,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17073,0,1,1,null,0,0,0
+1658480711409,2,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711426,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711430,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711432,7,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17109,0,1,1,null,0,0,0
+1658480711440,7,add-Unit-AC-11,200,"001: AC-11 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1172,1,1,http://192.168.0.206/axon-node/admin/masters/units/,7,0,0
+1658480711450,4,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711454,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,0
+1658480711465,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17101,0,1,1,null,0,0,0
+1658480711465,10,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711490,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711494,3,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711498,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17137,0,1,1,null,0,0,0
+1658480711499,6,add-Unit-AC-12,200,"001: AC-12 : Expected responseCode 400, got 400::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  The Request Fail due to invalid unitCode.***unitCode should be min 3 characters***",[TG] Axon-Master-FT 1-1,text,true,,378,1168,1,1,http://192.168.0.206/axon-node/admin/masters/units/,6,0,0
+1658480711510,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711513,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5150,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,1
+1658480711524,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17107,0,1,1,null,0,0,0
+1658480711525,7,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711548,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711552,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711555,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17143,0,1,1,null,0,0,0
+1658480711557,4,add-Unit-AC-13,200,"005b: AC-13: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid unitCode.***unitCode not exceed morethan 7 characters***",[TG] Axon-Master-FT 1-1,text,false,,380,1178,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480711565,3,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711574,7,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,7,0,0
+1658480711582,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17106,0,1,1,null,0,0,0
+1658480711583,4,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711599,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711603,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711605,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17142,0,1,1,null,0,0,0
+1658480711606,4,add-Unit-AC-14,200,"001: AC-14 : Expected responseCode 400, got 400::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  The Request Fail due to invalid unitCode.***unitCode contains special characters***",[TG] Axon-Master-FT 1-1,text,true,,382,1172,1,1,http://192.168.0.206/axon-node/admin/masters/units/,3,0,0
+1658480711614,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711616,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5150,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,2
+1658480711627,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17082,0,1,1,null,0,0,0
+1658480711628,4,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711647,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711651,4,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711657,2,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17118,0,1,1,null,0,0,0
+1658480711659,4,add-Unit-AC-15,200,"005b: AC-15: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid unitCode.***unitCode contain space***",[TG] Axon-Master-FT 1-1,text,false,,380,1172,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480711667,6,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711674,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480711684,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17081,0,1,1,null,0,0,0
+1658480711685,5,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711703,5,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711708,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711710,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17117,0,1,1,null,0,0,0
+1658480711711,4,add-Unit-AC-16,200,"001: AC-16 : Expected responseCode 400, got 400::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  The Request Fail due to invalid unitCode.***unitCode is empty***",[TG] Axon-Master-FT 1-1,text,true,,376,1166,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480711718,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711721,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5150,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,2
+1658480711732,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17062,0,1,1,null,0,0,0
+1658480711733,8,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711750,10,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711761,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711762,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17097,0,1,1,null,0,0,0
+1658480711764,5,add-Unit-AC-17,200,"001: AC-17 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1170,1,1,http://192.168.0.206/axon-node/admin/masters/units/,5,0,0
+1658480711774,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711776,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480711786,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17116,0,1,1,null,0,0,0
+1658480711787,8,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711810,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711814,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711816,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17151,0,1,1,null,0,0,0
+1658480711826,5,add-Unit-AC-18,200,"005b: AC-18: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid contactPerson.***contactPerson Contains alphanumeric value***",[TG] Axon-Master-FT 1-1,text,false,,380,1171,1,1,http://192.168.0.206/axon-node/admin/masters/units/,5,0,0
+1658480711835,3,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711839,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,0
+1658480711849,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17110,0,1,1,null,0,0,0
+1658480711850,12,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711875,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711878,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711880,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17145,0,1,1,null,0,0,0
+1658480711881,5,add-Unit-AC-19,200,"005b: AC-19: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid contactPerson.***contactPerson Contains numeric value***",[TG] Axon-Master-FT 1-1,text,false,,380,1170,1,1,http://192.168.0.206/axon-node/admin/masters/units/,5,0,0
+1658480711890,3,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711894,11,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,11,0,0
+1658480711906,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17071,0,1,1,null,0,0,0
+1658480711907,10,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711944,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711948,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711949,2,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17106,0,1,1,null,0,0,0
+1658480711951,6,add-Unit-AC-20,200,"001: AC-20 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :- Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1170,1,1,http://192.168.0.206/axon-node/admin/masters/units/,5,0,0
+1658480711960,1,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711962,12,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,12,0,0
+1658480711976,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17111,0,1,1,null,0,0,0
+1658480711977,6,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480711998,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712002,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712006,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17146,0,1,1,null,0,0,0
+1658480712008,4,add-Unit-AC-21,200,"005b: AC-21: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid contactPerson.***contactPerson should be min 3 characters***",[TG] Axon-Master-FT 1-1,text,false,,380,1167,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480712015,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712018,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,0
+1658480712028,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17142,0,1,1,null,0,0,0
+1658480712029,6,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712048,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712052,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712056,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17177,0,1,1,null,0,0,0
+1658480712058,4,add-Unit-AC-22,200,"005b: AC-22: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid contactPerson.***contactPerson should not exceed morethan 15 characters***",[TG] Axon-Master-FT 1-1,text,false,,380,1184,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480712064,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712067,8,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,8,0,0
+1658480712076,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17116,0,1,1,null,0,0,0
+1658480712077,7,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712096,2,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712099,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712100,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17151,0,1,1,null,0,0,0
+1658480712101,5,add-Unit-AC-23,200,"005b: AC-23: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid contactPerson.***contactPerson contains special characters***",[TG] Axon-Master-FT 1-1,text,false,,380,1171,1,1,http://192.168.0.206/axon-node/admin/masters/units/,5,0,0
+1658480712110,3,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712114,8,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,8,0,0
+1658480712125,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17075,0,1,1,null,0,0,0
+1658480712126,5,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712144,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712147,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712148,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17110,0,1,1,null,0,0,0
+1658480712150,6,add-Unit-AC-24,200,"001: AC-24 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1173,1,1,http://192.168.0.206/axon-node/admin/masters/units/,6,0,0
+1658480712159,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712162,19,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,19,0,0
+1658480712182,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17067,0,1,1,null,0,0,0
+1658480712183,7,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712200,2,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712203,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712207,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17102,0,1,1,null,0,0,0
+1658480712208,4,add-Unit-AC-25,200,"001: AC-25 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1165,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480712214,1,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712216,8,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,8,0,0
+1658480712225,4,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17102,0,1,1,null,0,0,0
+1658480712229,6,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712269,7,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712276,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712278,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17135,0,1,1,null,0,0,0
+1658480712280,4,add-Unit-AC-26,200,"005b: AC-26: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid phoneNumber.***phoneNumber contains alphabets***",[TG] Axon-Master-FT 1-1,text,false,,380,1168,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480712288,4,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712292,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,0
+1658480712303,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17115,0,1,1,null,0,0,0
+1658480712304,9,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712325,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712329,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712330,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17148,0,1,1,null,0,0,0
+1658480712331,4,add-Unit-AC-27,200,"005b: AC-27: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid phoneNumber.***phoneNumber contains alphanumeric value***",[TG] Axon-Master-FT 1-1,text,false,,380,1172,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480712339,3,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712342,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480712353,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17076,0,1,1,null,0,0,0
+1658480712354,9,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712377,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712381,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712382,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17109,0,1,1,null,0,0,0
+1658480712384,4,add-Unit-AC-28,200,"001: AC-28 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :- Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1173,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480712393,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712396,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480712407,2,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17076,0,1,1,null,0,0,0
+1658480712409,8,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712430,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712433,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712435,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17109,0,1,1,null,0,0,0
+1658480712436,4,add-Unit-AC-29,200,"001: AC-29 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :- Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1173,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480712443,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712445,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480712458,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17114,0,1,1,null,0,0,0
+1658480712459,8,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712479,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712482,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712483,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17147,0,1,1,null,0,0,0
+1658480712485,5,add-Unit-AC-30,200,"005b: AC-30: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid phoneNumber.***phoneNumber must be Equal to 10 numbers***",[TG] Axon-Master-FT 1-1,text,false,,380,1171,1,1,http://192.168.0.206/axon-node/admin/masters/units/,5,0,0
+1658480712493,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712496,14,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,14,0,0
+1658480712511,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17118,0,1,1,null,0,0,0
+1658480712512,6,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712530,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712534,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712536,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17151,0,1,1,null,0,0,0
+1658480712537,5,add-Unit-AC-31,200,"005b: AC-31: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid phoneNumber.***phoneNumber must be equal to  10 numbers***",[TG] Axon-Master-FT 1-1,text,false,,380,1174,1,1,http://192.168.0.206/axon-node/admin/masters/units/,5,0,0
+1658480712546,1,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712548,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,0
+1658480712559,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17113,0,1,1,null,0,0,0
+1658480712560,7,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712578,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712582,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712583,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17146,0,1,1,null,0,0,0
+1658480712585,5,add-Unit-AC-32,200,"005b: AC-32: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid phoneNumber.***phoneNumber contains special characters***",[TG] Axon-Master-FT 1-1,text,false,,380,1170,1,1,http://192.168.0.206/axon-node/admin/masters/units/,5,0,0
+1658480712595,4,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712600,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,0
+1658480712611,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17100,0,1,1,null,0,0,0
+1658480712612,4,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712627,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712631,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712633,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17133,0,1,1,null,0,0,0
+1658480712634,4,add-Unit-AC-33,200,"005b: AC-33: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid phoneNumber.***phoneNumber contain space***",[TG] Axon-Master-FT 1-1,text,false,,380,1171,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480712644,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712646,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480712656,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17067,0,1,1,null,0,0,0
+1658480712657,6,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712670,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712674,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712676,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17100,0,1,1,null,0,0,0
+1658480712677,3,add-Unit-AC-34,200,"001: AC-34 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1163,1,1,http://192.168.0.206/axon-node/admin/masters/units/,3,0,0
+1658480712682,1,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712684,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480712693,8,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17089,0,1,1,null,0,0,0
+1658480712701,11,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712720,9,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712730,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712731,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17112,0,1,1,null,0,0,0
+1658480712733,6,add-Unit-AC-35,200,"001: AC-35 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1175,1,1,http://192.168.0.206/axon-node/admin/masters/units/,6,0,0
+1658480712742,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712745,12,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,12,0,0
+1658480712758,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17083,0,1,1,null,0,0,0
+1658480712759,10,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712779,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712783,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712785,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17106,0,1,1,null,0,0,0
+1658480712786,4,add-Unit-AC-36,200,"001: AC-36 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :- Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1170,1,1,http://192.168.0.206/axon-node/admin/masters/units/,3,0,0
+1658480712793,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712795,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480712805,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17110,0,1,1,null,0,0,0
+1658480712806,11,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712829,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712833,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712835,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17133,0,1,1,null,0,0,0
+1658480712836,3,add-Unit-AC-37,200,"005b: AC-37: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The request Fail due to invalid email.***email must contain (.) operator***",[TG] Axon-Master-FT 1-1,text,false,,380,1171,1,1,http://192.168.0.206/axon-node/admin/masters/units/,3,0,0
+1658480712843,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712846,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480712856,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17099,0,1,1,null,0,0,0
+1658480712857,9,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712880,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712883,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712885,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17122,0,1,1,null,0,0,0
+1658480712886,6,add-Unit-AC-38,200,"005b: AC-38: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-   The request Fail due to invalid email.***email must contain @***",[TG] Axon-Master-FT 1-1,text,false,,380,1170,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480712896,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712898,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,0
+1658480712909,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17093,0,1,1,null,0,0,0
+1658480712910,9,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712936,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712944,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712946,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17116,0,1,1,null,0,0,0
+1658480712947,3,add-Unit-AC-39,200,"005b: AC-39: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The request Fail due to invalid email.***email must include @ and . ***",[TG] Axon-Master-FT 1-1,text,false,,380,1158,1,1,http://192.168.0.206/axon-node/admin/masters/units/,3,0,0
+1658480712953,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712955,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480712965,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17085,0,1,1,null,0,0,0
+1658480712966,6,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712984,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712987,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480712988,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17108,0,1,1,null,0,0,0
+1658480712993,5,add-Unit-AC-40,200,"005b: AC-40: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid email.***email must not be empty ***",[TG] Axon-Master-FT 1-1,text,false,,380,1153,1,1,http://192.168.0.206/axon-node/admin/masters/units/,5,0,0
+1658480713001,3,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713004,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480713014,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17073,0,1,1,null,0,0,0
+1658480713015,7,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713050,5,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713055,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713060,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17108,0,1,1,null,0,0,0
+1658480713062,3,add-Unit-AC-41,200,"001: AC-41 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1171,1,1,http://192.168.0.206/axon-node/admin/masters/units/,3,0,0
+1658480713068,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713070,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,0
+1658480713080,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17077,0,1,1,null,0,0,0
+1658480713081,6,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713101,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713104,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713106,4,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17112,0,1,1,null,0,0,0
+1658480713111,4,add-Unit-AC-42,200,"001: AC-42 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1175,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480713117,1,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713119,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480713128,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17075,0,1,1,null,0,0,0
+1658480713129,4,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713138,7,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713145,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713147,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17110,0,1,1,null,0,0,0
+1658480713148,3,add-Unit-AC-43,200,"001: AC-43 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1173,1,1,http://192.168.0.206/axon-node/admin/masters/units/,3,0,0
+1658480713154,1,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713156,8,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,7,0,0
+1658480713164,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17072,0,1,1,null,0,0,0
+1658480713165,6,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713181,4,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713185,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713187,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17107,0,1,1,null,0,0,0
+1658480713188,3,add-Unit-AC-44,200,"001: AC-44 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :- Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1171,1,1,http://192.168.0.206/axon-node/admin/masters/units/,3,0,0
+1658480713195,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713197,8,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,8,0,0
+1658480713206,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17099,0,1,1,null,0,0,0
+1658480713207,9,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713223,11,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713234,3,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713238,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17134,0,1,1,null,0,0,0
+1658480713239,6,add-Unit-AC-45,200,"005b: AC-45: TEST FAILED:::Expected ResponseCode/Result = 400 Actual ResponseCode/Result = 200
+Error_Comment :-  The Request Fail due to invalid address.***address should be min 3 characters***",[TG] Axon-Master-FT 1-1,text,false,,380,1167,1,1,http://192.168.0.206/axon-node/admin/masters/units/,6,0,0
+1658480713248,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713250,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,10,0,0
+1658480713261,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17092,0,1,1,null,0,0,0
+1658480713262,7,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713279,7,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713286,2,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713288,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17127,0,1,1,null,0,0,0
+1658480713289,5,add-Unit-AC-46,200,"001: AC-46 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :-  Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1190,1,1,http://192.168.0.206/axon-node/admin/masters/units/,5,0,0
+1658480713297,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713299,10,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480713309,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17086,0,1,1,null,0,0,0
+1658480713311,6,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713325,8,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713334,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713335,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17121,0,1,1,null,0,0,0
+1658480713337,4,add-Unit-AC-47,200,"001: AC-47 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :- Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1185,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480713344,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713346,9,BranchURL,200,OK,[TG] Axon-Master-FT 1-1,text,true,,5149,995,1,1,http://192.168.0.206/axon-node/admin/masters/branches/paging,9,0,0
+1658480713356,0,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17066,0,1,1,null,0,0,0
+1658480713356,9,Generate Variable Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713370,3,Configure Null Data,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713373,1,Configure Response Assertion,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0
+1658480713374,1,Debug Sampler,200,OK,[TG] Axon-Master-FT 1-1,text,true,,17101,0,1,1,null,0,0,0
+1658480713375,4,add-Unit-AC-48,200,"001: AC-48 : Expected responseCode 200, got 200::: TEST PASSED, Setting Response to OK:
+Error_Comment :- Record added successfully",[TG] Axon-Master-FT 1-1,text,true,,380,1165,1,1,http://192.168.0.206/axon-node/admin/masters/units/,4,0,0
+1658480713382,2,Write Data File,200,OK,[TG] Axon-Master-FT 1-1,text,true,,0,0,1,1,null,0,0,0

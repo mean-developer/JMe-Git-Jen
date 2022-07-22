@@ -1,0 +1,62 @@
+2022-07-22 14:05:39,812 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-07-22 14:05:39,853 INFO o.a.j.JMeter: Loading user properties from: C:\Apps\JMeter\apache-jmeter-5.5\bin\user.properties
+2022-07-22 14:05:39,855 INFO o.a.j.JMeter: Loading system properties from: C:\Apps\JMeter\apache-jmeter-5.5\bin\system.properties
+2022-07-22 14:05:39,856 INFO o.a.j.JMeter: Setting System property: jmeter.protocol=http
+2022-07-22 14:05:39,856 INFO o.a.j.JMeter: Setting System property: jmeter.serverName=192.168.0.206
+2022-07-22 14:05:39,856 INFO o.a.j.JMeter: Setting System property: jmeter.serverPort=80
+2022-07-22 14:05:39,856 INFO o.a.j.JMeter: Setting System property: jmeter.users=1
+2022-07-22 14:05:39,856 INFO o.a.j.JMeter: Setting System property: jmeter.duration=1
+2022-07-22 14:05:39,856 INFO o.a.j.JMeter: Setting System property: jmeter.startupDelay=1
+2022-07-22 14:05:39,856 INFO o.a.j.JMeter: Setting System property: jmeter.rampup=1
+2022-07-22 14:05:39,857 INFO o.a.j.JMeter: Setting System property: jmeter.randomDelay=0
+2022-07-22 14:05:39,857 INFO o.a.j.JMeter: Setting System property: jmeter.constantDelay=0
+2022-07-22 14:05:39,857 INFO o.a.j.JMeter: Setting System property: jmeter.basedir=../../..
+2022-07-22 14:05:39,857 INFO o.a.j.JMeter: Setting System property: jmeter.loopCount=1
+2022-07-22 14:05:39,857 INFO o.a.j.JMeter: Setting System property: jmeter.debug=false
+2022-07-22 14:05:39,857 INFO o.a.j.JMeter: Setting System property: jmeter.userSessionLoopCount=1
+2022-07-22 14:05:39,871 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2022-07-22 14:05:39,872 INFO o.a.j.JMeter: Version 5.5
+2022-07-22 14:05:39,872 INFO o.a.j.JMeter: java.version=11.0.15
+2022-07-22 14:05:39,872 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-07-22 14:05:39,872 INFO o.a.j.JMeter: os.name=Windows 10
+2022-07-22 14:05:39,872 INFO o.a.j.JMeter: os.arch=amd64
+2022-07-22 14:05:39,872 INFO o.a.j.JMeter: os.version=10.0
+2022-07-22 14:05:39,872 INFO o.a.j.JMeter: file.encoding=Cp1252
+2022-07-22 14:05:39,872 INFO o.a.j.JMeter: java.awt.headless=null
+2022-07-22 14:05:39,872 INFO o.a.j.JMeter: Max memory     =1610612736
+2022-07-22 14:05:39,872 INFO o.a.j.JMeter: Available Processors =4
+2022-07-22 14:05:39,886 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-07-22 14:05:39,887 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-07-22 14:05:39,887 INFO o.a.j.JMeter: JMeterHome=C:\Apps\JMeter\apache-jmeter-5.5
+2022-07-22 14:05:39,887 INFO o.a.j.JMeter: user.dir  =C:\Apps\Jenkins\workspace\MYTEST\Add-API\Unit
+2022-07-22 14:05:39,888 INFO o.a.j.JMeter: PWD       =C:\Apps\Jenkins\workspace\MYTEST\Add-API\Unit
+2022-07-22 14:05:39,888 INFO o.a.j.JMeter: IP: 192.168.0.58 Name: DESKTOP-68UN0DI FullName: DESKTOP-68UN0DI
+2022-07-22 14:05:39,915 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-07-22 14:05:40,275 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:javax.swing.plaf.metal.MetalLookAndFeel
+2022-07-22 14:05:43,116 INFO o.a.j.JMeterGuiLauncher: Loading file: scripts\add-unit.jmx
+2022-07-22 14:05:43,120 INFO o.a.j.s.FileServer: Default base='C:\Apps\Jenkins\workspace\MYTEST\Add-API\Unit'
+2022-07-22 14:05:43,125 INFO o.a.j.s.FileServer: Set new base='C:\Apps\Jenkins\workspace\MYTEST\Add-API\Unit\scripts'
+2022-07-22 14:05:43,734 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-07-22 14:05:43,762 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-07-22 14:05:43,765 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-07-22 14:05:43,767 INFO o.a.j.s.SaveService: Loading file: scripts\add-unit.jmx
+2022-07-22 14:05:43,836 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2022-07-22 14:05:44,339 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-07-22 14:05:44,339 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-07-22 14:05:44,340 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-07-22 14:05:44,340 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-07-22 14:05:44,340 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-07-22 14:05:44,340 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-07-22 14:05:44,424 INFO o.a.j.s.FileServer: Set new base='C:\Apps\Jenkins\workspace\MYTEST\Add-API\Unit\scripts'
+2022-07-22 14:05:45,250 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-07-22 14:05:45,251 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-07-22 14:05:45,251 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-07-22 14:05:45,251 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-07-22 14:05:45,736 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-07-22 14:05:46,273 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\Apps\Jenkins\workspace\MYTEST\Add-API\Login\scripts\instant-token.jmx
+2022-07-22 14:05:46,273 INFO o.a.j.s.SaveService: Loading file: C:\Apps\Jenkins\workspace\MYTEST\Add-API\Login\scripts\instant-token.jmx
+2022-07-22 14:09:41,718 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\Apps\Jenkins\workspace\MYTEST\Add-API\Login\scripts\instant-token.jmx
+2022-07-22 14:09:41,718 INFO o.a.j.s.SaveService: Loading file: C:\Apps\Jenkins\workspace\MYTEST\Add-API\Login\scripts\instant-token.jmx
+2022-07-22 14:09:44,488 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-07-22 14:09:52,742 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: C:\Apps\Jenkins\workspace\MYTEST\Add-API\Login\scripts\instant-token.jmx
+2022-07-22 14:09:52,742 INFO o.a.j.s.SaveService: Loading file: C:\Apps\Jenkins\workspace\MYTEST\Add-API\Login\scripts\instant-token.jmx
