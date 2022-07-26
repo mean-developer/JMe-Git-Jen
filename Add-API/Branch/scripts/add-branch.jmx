@@ -64,238 +64,14 @@
             <stringProp name="Argument.value">${__P(jmeter.serverPort)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="****** TEST PROPERTIES - DO NOT MODIFY END ******" elementType="Argument">
-            <stringProp name="Argument.name">****** TEST PROPERTIES - DO NOT MODIFY END ******</stringProp>
-            <stringProp name="Argument.value">****** TEST PROPERTIES - DO NOT MODIFY END ******</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="***********************TEST TO RUN******************************" elementType="Argument">
-            <stringProp name="Argument.name">***********************TEST TO RUN******************************</stringProp>
-            <stringProp name="Argument.value">***********************TEST TO RUN******************************</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="mandatoryTestType" elementType="Argument">
-            <stringProp name="Argument.name">mandatoryTestType</stringProp>
-            <stringProp name="Argument.value">READINESS</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="optionalTestType1" elementType="Argument">
-            <stringProp name="Argument.name">optionalTestType1</stringProp>
-            <stringProp name="Argument.value">REGRESSION</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="optionalTestType2" elementType="Argument">
-            <stringProp name="Argument.name">optionalTestType2</stringProp>
-            <stringProp name="Argument.value">CHANGE_FOCUSED</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="*******************OTHER PARAMETERS***************************" elementType="Argument">
-            <stringProp name="Argument.name">*******************OTHER PARAMETERS***************************</stringProp>
-            <stringProp name="Argument.value"></stringProp>
-            <stringProp name="Argument.desc">*******************OTHER PARAMETERS***************************</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="keywordToSupress" elementType="Argument">
-            <stringProp name="Argument.name">keywordToSupress</stringProp>
-            <stringProp name="Argument.value">SKIP</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="debug" elementType="Argument">
-            <stringProp name="Argument.name">debug</stringProp>
-            <stringProp name="Argument.value">false</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="****** TEST PROPERTIES - DO NOT MODIFY START ******" elementType="Argument">
-            <stringProp name="Argument.name">****** TEST PROPERTIES - DO NOT MODIFY START ******</stringProp>
-            <stringProp name="Argument.value">****** TEST PROPERTIES - DO NOT MODIFY START ******</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="protocol" elementType="Argument">
-            <stringProp name="Argument.name">protocol</stringProp>
-            <stringProp name="Argument.value">${__P(jmeter.protocol)}</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="serverName" elementType="Argument">
-            <stringProp name="Argument.name">serverName</stringProp>
-            <stringProp name="Argument.value">${__P(jmeter.serverName)}</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="serverPort" elementType="Argument">
-            <stringProp name="Argument.name">serverPort</stringProp>
-            <stringProp name="Argument.value">${__P(jmeter.serverPort)}</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="****** TEST PROPERTIES - DO NOT MODIFY END ******" elementType="Argument">
-            <stringProp name="Argument.name">****** TEST PROPERTIES - DO NOT MODIFY END ******</stringProp>
-            <stringProp name="Argument.value">****** TEST PROPERTIES - DO NOT MODIFY END ******</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="***********************TEST TO RUN******************************" elementType="Argument">
-            <stringProp name="Argument.name">***********************TEST TO RUN******************************</stringProp>
-            <stringProp name="Argument.value">***********************TEST TO RUN******************************</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="mandatoryTestType" elementType="Argument">
-            <stringProp name="Argument.name">mandatoryTestType</stringProp>
-            <stringProp name="Argument.value">READINESS</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="optionalTestType1" elementType="Argument">
-            <stringProp name="Argument.name">optionalTestType1</stringProp>
-            <stringProp name="Argument.value">REGRESSION</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="optionalTestType2" elementType="Argument">
-            <stringProp name="Argument.name">optionalTestType2</stringProp>
-            <stringProp name="Argument.value">CHANGE_FOCUSED</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="*******************OTHER PARAMETERS***************************" elementType="Argument">
-            <stringProp name="Argument.name">*******************OTHER PARAMETERS***************************</stringProp>
-            <stringProp name="Argument.value"></stringProp>
-            <stringProp name="Argument.desc">*******************OTHER PARAMETERS***************************</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="keywordToSupress" elementType="Argument">
-            <stringProp name="Argument.name">keywordToSupress</stringProp>
-            <stringProp name="Argument.value">SKIP</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="debug" elementType="Argument">
-            <stringProp name="Argument.name">debug</stringProp>
-            <stringProp name="Argument.value">false</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="****** TEST PROPERTIES - DO NOT MODIFY START ******" elementType="Argument">
-            <stringProp name="Argument.name">****** TEST PROPERTIES - DO NOT MODIFY START ******</stringProp>
-            <stringProp name="Argument.value">****** TEST PROPERTIES - DO NOT MODIFY START ******</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="protocol" elementType="Argument">
-            <stringProp name="Argument.name">protocol</stringProp>
-            <stringProp name="Argument.value">${__P(jmeter.protocol)}</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="serverName" elementType="Argument">
-            <stringProp name="Argument.name">serverName</stringProp>
-            <stringProp name="Argument.value">${__P(jmeter.serverName)}</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="serverPort" elementType="Argument">
-            <stringProp name="Argument.name">serverPort</stringProp>
-            <stringProp name="Argument.value">${__P(jmeter.serverPort)}</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="****** TEST PROPERTIES - DO NOT MODIFY END ******" elementType="Argument">
-            <stringProp name="Argument.name">****** TEST PROPERTIES - DO NOT MODIFY END ******</stringProp>
-            <stringProp name="Argument.value">****** TEST PROPERTIES - DO NOT MODIFY END ******</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="***********************TEST TO RUN******************************" elementType="Argument">
-            <stringProp name="Argument.name">***********************TEST TO RUN******************************</stringProp>
-            <stringProp name="Argument.value">***********************TEST TO RUN******************************</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="mandatoryTestType" elementType="Argument">
-            <stringProp name="Argument.name">mandatoryTestType</stringProp>
-            <stringProp name="Argument.value">READINESS</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="optionalTestType1" elementType="Argument">
-            <stringProp name="Argument.name">optionalTestType1</stringProp>
-            <stringProp name="Argument.value">REGRESSION</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="optionalTestType2" elementType="Argument">
-            <stringProp name="Argument.name">optionalTestType2</stringProp>
-            <stringProp name="Argument.value">CHANGE_FOCUSED</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="*******************OTHER PARAMETERS***************************" elementType="Argument">
-            <stringProp name="Argument.name">*******************OTHER PARAMETERS***************************</stringProp>
-            <stringProp name="Argument.value"></stringProp>
-            <stringProp name="Argument.desc">*******************OTHER PARAMETERS***************************</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="keywordToSupress" elementType="Argument">
-            <stringProp name="Argument.name">keywordToSupress</stringProp>
-            <stringProp name="Argument.value">SKIP</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="debug" elementType="Argument">
-            <stringProp name="Argument.name">debug</stringProp>
-            <stringProp name="Argument.value">false</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="***********************TEST TO RUN******************************" elementType="Argument">
-            <stringProp name="Argument.name">***********************TEST TO RUN******************************</stringProp>
-            <stringProp name="Argument.value">***********************TEST TO RUN******************************</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="mandatoryTestType" elementType="Argument">
-            <stringProp name="Argument.name">mandatoryTestType</stringProp>
-            <stringProp name="Argument.value">READINESS</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="optionalTestType1" elementType="Argument">
-            <stringProp name="Argument.name">optionalTestType1</stringProp>
-            <stringProp name="Argument.value">REGRESSION</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="optionalTestType2" elementType="Argument">
-            <stringProp name="Argument.name">optionalTestType2</stringProp>
-            <stringProp name="Argument.value">CHANGE_FOCUSED</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="*******************OTHER PARAMETERS***************************" elementType="Argument">
-            <stringProp name="Argument.name">*******************OTHER PARAMETERS***************************</stringProp>
-            <stringProp name="Argument.value"></stringProp>
-            <stringProp name="Argument.desc">*******************OTHER PARAMETERS***************************</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="keywordToSupress" elementType="Argument">
-            <stringProp name="Argument.name">keywordToSupress</stringProp>
-            <stringProp name="Argument.value">SKIP</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="debug" elementType="Argument">
-            <stringProp name="Argument.name">debug</stringProp>
-            <stringProp name="Argument.value">false</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="****** TEST PROPERTIES - DO NOT MODIFY START ******" elementType="Argument">
-            <stringProp name="Argument.name">****** TEST PROPERTIES - DO NOT MODIFY START ******</stringProp>
-            <stringProp name="Argument.value">****** TEST PROPERTIES - DO NOT MODIFY START ******</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="protocol" elementType="Argument">
-            <stringProp name="Argument.name">protocol</stringProp>
-            <stringProp name="Argument.value">${__P(jmeter.protocol)}</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="serverName" elementType="Argument">
-            <stringProp name="Argument.name">serverName</stringProp>
-            <stringProp name="Argument.value">${__P(jmeter.serverName)}</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="serverPort" elementType="Argument">
-            <stringProp name="Argument.name">serverPort</stringProp>
-            <stringProp name="Argument.value">${__P(jmeter.serverPort)}</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
-          <elementProp name="****** TEST PROPERTIES - DO NOT MODIFY END ******" elementType="Argument">
-            <stringProp name="Argument.name">****** TEST PROPERTIES - DO NOT MODIFY END ******</stringProp>
-            <stringProp name="Argument.value">****** TEST PROPERTIES - DO NOT MODIFY END ******</stringProp>
-            <stringProp name="Argument.metadata">=</stringProp>
-          </elementProp>
           <elementProp name="dataFile" elementType="Argument">
             <stringProp name="Argument.name">dataFile</stringProp>
             <stringProp name="Argument.value">${__P(jmeter.dataFile)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="loginPath" elementType="Argument">
-            <stringProp name="Argument.name">loginPath</stringProp>
-            <stringProp name="Argument.value">${__P(jmeter.loginPath)}</stringProp>
+          <elementProp name="****** TEST PROPERTIES - DO NOT MODIFY END ******" elementType="Argument">
+            <stringProp name="Argument.name">****** TEST PROPERTIES - DO NOT MODIFY END ******</stringProp>
+            <stringProp name="Argument.value">****** TEST PROPERTIES - DO NOT MODIFY END ******</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
         </collectionProp>
@@ -553,10 +329,10 @@ if ( (&quot;${mandatoryTestType}&quot; == &quot;${testType}&quot;) &amp;&amp; (r
 	//log.info(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt; FAIL&quot;);
 //	log.info(&quot;&gt;&gt;&gt;&gt;&gt;&gt;&gt; expectedMessage=&quot; + expectedMessage + &quot;&lt;&lt;&lt;&lt;&quot;);	
 	if (expectedMessage != &quot;&quot;) {
-		log.info(&quot;1&quot;);
+//		log.info(&quot;1&quot;);
 		SampleResult.setResponseMessage(&quot;005a: ${testId}:  TEST FAILED:::Expected Message = &quot; + expectedMessage + &quot; Actual Message = &quot; + apiResponseMessage+&quot;\n&quot;+ &quot;${comments}&quot;);	
 	} else {
-		log.info(&quot;2&quot;);
+//		log.info(&quot;2&quot;);
 		SampleResult.setResponseMessage(&quot;005b: ${testId}:  TEST FAILED:::Expected ResponseCode/Result = &quot; + expectedResponseCode + &quot; Actual ResponseCode/Result = &quot; + responseCode+&quot;\n&quot;+ &quot;${comments}&quot;);	
 	}
 	// Change the sample result to failure, just in-case it isn&apos;t... and this will also change the colour to &apos;Red&apos;!!!
@@ -660,7 +436,7 @@ vars.put(&quot;resultFileName&quot;, resultFileName);
         </BeanShellSampler>
         <hashTree/>
         <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="[IC] Login" enabled="true">
-          <stringProp name="IncludeController.includepath">D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Login\scripts\instant-token.jmx</stringProp>
+          <stringProp name="IncludeController.includepath">C:\Apps\JenkinsIntegration\JMe-Git-Jen\Add-API\Login\scripts\instant-token.jmx</stringProp>
         </IncludeController>
         <hashTree/>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
