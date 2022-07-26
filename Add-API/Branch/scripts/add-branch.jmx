@@ -293,6 +293,11 @@
             <stringProp name="Argument.value">${__P(jmeter.dataFile)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
+          <elementProp name="loginPath" elementType="Argument">
+            <stringProp name="Argument.name">loginPath</stringProp>
+            <stringProp name="Argument.value">${__P(jmeter.loginPath)}</stringProp>
+            <stringProp name="Argument.metadata">=</stringProp>
+          </elementProp>
         </collectionProp>
       </elementProp>
       <stringProp name="TestPlan.user_define_classpath"></stringProp>
@@ -655,7 +660,7 @@ vars.put(&quot;resultFileName&quot;, resultFileName);
         </BeanShellSampler>
         <hashTree/>
         <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="[IC] Login" enabled="true">
-          <stringProp name="IncludeController.includepath">..\..\Login\scripts\instant-token.jmx</stringProp>
+          <stringProp name="IncludeController.includepath">D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Login\scripts\instant-token.jmx</stringProp>
         </IncludeController>
         <hashTree/>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">

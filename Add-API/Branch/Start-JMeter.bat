@@ -14,6 +14,7 @@ SET JMETER_PROP=%JMETER_PROP% -Djmeter.protocol=http
 SET JMETER_PROP=%JMETER_PROP% -Djmeter.serverName=192.168.0.206
 SET JMETER_PROP=%JMETER_PROP% -Djmeter.serverPort=80
 SET JMETER_PROP=%JMETER_PROP% -Djmeter.dataFile=..\data\master-data.csv
+SET JMETER_PROP=%JMETER_PROP% -Djmeter.loginPath=..\Login\scripts\instant-token.jmx
 REM Environment Properties - End
 
 REM Performance Properties - Start
