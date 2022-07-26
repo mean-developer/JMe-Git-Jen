@@ -1,135 +1,157 @@
-2022-07-26 12:44:57,366 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
-2022-07-26 12:44:57,405 INFO o.a.j.JMeter: Loading user properties from: C:\Apps\JMeter\apache-jmeter-5.5\bin\user.properties
-2022-07-26 12:44:57,406 INFO o.a.j.JMeter: Loading system properties from: C:\Apps\JMeter\apache-jmeter-5.5\bin\system.properties
-2022-07-26 12:44:57,406 INFO o.a.j.JMeter: Setting System property: jmeter.protocol=http
-2022-07-26 12:44:57,407 INFO o.a.j.JMeter: Setting System property: jmeter.serverName=192.168.0.206
-2022-07-26 12:44:57,407 INFO o.a.j.JMeter: Setting System property: jmeter.serverPort=80
-2022-07-26 12:44:57,407 INFO o.a.j.JMeter: Setting System property: jmeter.users=1
-2022-07-26 12:44:57,407 INFO o.a.j.JMeter: Setting System property: jmeter.duration=1
-2022-07-26 12:44:57,407 INFO o.a.j.JMeter: Setting System property: jmeter.startupDelay=1
-2022-07-26 12:44:57,408 INFO o.a.j.JMeter: Setting System property: jmeter.rampup=1
-2022-07-26 12:44:57,408 INFO o.a.j.JMeter: Setting System property: jmeter.randomDelay=0
-2022-07-26 12:44:57,408 INFO o.a.j.JMeter: Setting System property: jmeter.constantDelay=0
-2022-07-26 12:44:57,408 INFO o.a.j.JMeter: Setting System property: jmeter.basedir=../../..
-2022-07-26 12:44:57,408 INFO o.a.j.JMeter: Setting System property: jmeter.loopCount=1
-2022-07-26 12:44:57,408 INFO o.a.j.JMeter: Setting System property: jmeter.debug=false
-2022-07-26 12:44:57,408 INFO o.a.j.JMeter: Setting System property: jmeter.userSessionLoopCount=1
-2022-07-26 12:44:57,419 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
-2022-07-26 12:44:57,420 INFO o.a.j.JMeter: Version 5.5
-2022-07-26 12:44:57,420 INFO o.a.j.JMeter: java.version=11.0.15
-2022-07-26 12:44:57,420 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2022-07-26 12:44:57,420 INFO o.a.j.JMeter: os.name=Windows 10
-2022-07-26 12:44:57,420 INFO o.a.j.JMeter: os.arch=amd64
-2022-07-26 12:44:57,420 INFO o.a.j.JMeter: os.version=10.0
-2022-07-26 12:44:57,420 INFO o.a.j.JMeter: file.encoding=Cp1252
-2022-07-26 12:44:57,420 INFO o.a.j.JMeter: java.awt.headless=null
-2022-07-26 12:44:57,421 INFO o.a.j.JMeter: Max memory     =1610612736
-2022-07-26 12:44:57,421 INFO o.a.j.JMeter: Available Processors =4
-2022-07-26 12:44:57,433 INFO o.a.j.JMeter: Default Locale=English (EN)
-2022-07-26 12:44:57,433 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
-2022-07-26 12:44:57,435 INFO o.a.j.JMeter: JMeterHome=C:\Apps\JMeter\apache-jmeter-5.5
-2022-07-26 12:44:57,435 INFO o.a.j.JMeter: user.dir  =D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch
-2022-07-26 12:44:57,436 INFO o.a.j.JMeter: PWD       =D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch
-2022-07-26 12:44:57,438 INFO o.a.j.JMeter: IP: 192.168.0.58 Name: DESKTOP-68UN0DI FullName: DESKTOP-68UN0DI
-2022-07-26 12:44:57,460 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2022-07-26 12:44:57,835 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:javax.swing.plaf.metal.MetalLookAndFeel
-2022-07-26 12:45:00,049 INFO o.a.j.JMeterGuiLauncher: Loading file: scripts\add-branch.jmx
-2022-07-26 12:45:00,053 INFO o.a.j.s.FileServer: Default base='D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch'
-2022-07-26 12:45:00,055 INFO o.a.j.s.FileServer: Set new base='D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts'
-2022-07-26 12:45:00,777 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
-2022-07-26 12:45:00,831 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
-2022-07-26 12:45:00,835 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
-2022-07-26 12:45:00,839 INFO o.a.j.s.SaveService: Loading file: scripts\add-branch.jmx
-2022-07-26 12:45:00,957 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
-2022-07-26 12:45:01,741 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-07-26 12:45:01,741 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-07-26 12:45:01,741 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-07-26 12:45:01,741 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2022-07-26 12:45:01,741 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2022-07-26 12:45:01,741 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2022-07-26 12:45:01,814 INFO o.a.j.s.FileServer: Set new base='D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts'
-2022-07-26 12:45:02,832 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2022-07-26 12:45:02,832 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2022-07-26 12:45:02,832 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2022-07-26 12:45:02,833 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2022-07-26 12:45:03,241 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
-2022-07-26 12:45:03,604 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:03,604 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:03,604 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:03,605 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:42,152 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:42,153 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:42,153 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:42,153 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:42,497 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:42,499 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:42,499 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:42,499 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:42,635 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:42,636 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:42,636 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:42,636 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,443 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,444 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,444 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,444 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,465 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,465 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,467 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,467 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,514 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,517 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,518 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,518 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,579 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-07-26 12:45:44,580 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-07-26 12:45:44,585 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-07-26 12:45:44,590 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2022-07-26 12:45:44,590 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2022-07-26 12:45:44,752 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2022-07-26 12:45:44,832 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : [TG]Axon-Master
-2022-07-26 12:45:44,832 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group [TG]Axon-Master.
-2022-07-26 12:45:44,832 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-07-26 12:45:44,833 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2022-07-26 12:45:44,843 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,844 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,844 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,844 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:45:44,894 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2022-07-26 12:45:44,894 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-07-26 12:45:44,900 INFO o.a.j.t.JMeterThread: Thread started: [TG]Axon-Master 1-1
-2022-07-26 12:45:44,936 INFO o.a.j.u.BeanShellTestElement: Failed to delete the file
-2022-07-26 12:45:44,961 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-68UN0DI
-2022-07-26 12:45:44,973 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
-2022-07-26 12:45:50,662 INFO o.a.j.s.FileServer: Stored: \data\master-data.csv
-2022-07-26 12:45:50,662 ERROR o.a.j.t.JMeterThread: Test failed!
-java.lang.IllegalArgumentException: Could not read file header line for file \data\master-data.csv
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:283) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.config.CSVDataSet.initVars(CSVDataSet.java:208) ~[ApacheJMeter_components.jar:5.5]
-	at org.apache.jmeter.config.CSVDataSet.iterationStart(CSVDataSet.java:171) ~[ApacheJMeter_components.jar:5.5]
-	at org.apache.jmeter.control.GenericController.fireIterationStart(GenericController.java:399) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.control.GenericController.fireIterEvents(GenericController.java:391) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:160) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:222) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.control.GenericController.nextIsAController(GenericController.java:225) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.control.GenericController.next(GenericController.java:175) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.control.LoopController.next(LoopController.java:134) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.threads.AbstractThreadGroup.next(AbstractThreadGroup.java:99) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.threads.JMeterThread.run(JMeterThread.java:303) ~[ApacheJMeter_core.jar:5.5]
-	at java.lang.Thread.run(Thread.java:834) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: File master-data.csv must exist and be readable
-	at org.apache.jmeter.services.FileServer.createBufferedReader(FileServer.java:424) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:340) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.services.FileServer.readLine(FileServer.java:324) ~[ApacheJMeter_core.jar:5.5]
-	at org.apache.jmeter.services.FileServer.reserveFile(FileServer.java:272) ~[ApacheJMeter_core.jar:5.5]
-	... 15 more
-2022-07-26 12:45:50,683 INFO o.a.j.t.JMeterThread: Thread finished: [TG]Axon-Master 1-1
-2022-07-26 12:45:50,685 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-07-26 12:45:50,685 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2022-07-26 12:45:58,304 WARN o.a.j.p.h.v.RequestViewHTTP: Error decoding query, maybe your request parameters should be encoded:{"email":"admin@bijib.dev","upwd":"Bijib1%","device_type":3,"device_name":"chrome 101.0.4951 Windows 10"}
+2022-07-26 14:27:47,931 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-07-26 14:27:47,974 INFO o.a.j.JMeter: Loading user properties from: C:\Apps\JMeter\apache-jmeter-5.5\bin\user.properties
+2022-07-26 14:27:47,975 INFO o.a.j.JMeter: Loading system properties from: C:\Apps\JMeter\apache-jmeter-5.5\bin\system.properties
+2022-07-26 14:27:47,975 INFO o.a.j.JMeter: Setting System property: jmeter.protocol=http
+2022-07-26 14:27:47,975 INFO o.a.j.JMeter: Setting System property: jmeter.serverName=192.168.0.206
+2022-07-26 14:27:47,976 INFO o.a.j.JMeter: Setting System property: jmeter.serverPort=80
+2022-07-26 14:27:47,976 INFO o.a.j.JMeter: Setting System property: jmeter.dataFile=..\data\master-data.csv
+2022-07-26 14:27:47,976 INFO o.a.j.JMeter: Setting System property: jmeter.users=1
+2022-07-26 14:27:47,976 INFO o.a.j.JMeter: Setting System property: jmeter.duration=1
+2022-07-26 14:27:47,976 INFO o.a.j.JMeter: Setting System property: jmeter.startupDelay=1
+2022-07-26 14:27:47,976 INFO o.a.j.JMeter: Setting System property: jmeter.rampup=1
+2022-07-26 14:27:47,976 INFO o.a.j.JMeter: Setting System property: jmeter.randomDelay=0
+2022-07-26 14:27:47,976 INFO o.a.j.JMeter: Setting System property: jmeter.constantDelay=0
+2022-07-26 14:27:47,976 INFO o.a.j.JMeter: Setting System property: jmeter.basedir=../../..
+2022-07-26 14:27:47,976 INFO o.a.j.JMeter: Setting System property: jmeter.loopCount=1
+2022-07-26 14:27:47,977 INFO o.a.j.JMeter: Setting System property: jmeter.debug=false
+2022-07-26 14:27:47,977 INFO o.a.j.JMeter: Setting System property: jmeter.userSessionLoopCount=1
+2022-07-26 14:27:47,988 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2022-07-26 14:27:47,988 INFO o.a.j.JMeter: Version 5.5
+2022-07-26 14:27:47,988 INFO o.a.j.JMeter: java.version=11.0.15
+2022-07-26 14:27:47,989 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-07-26 14:27:47,989 INFO o.a.j.JMeter: os.name=Windows 10
+2022-07-26 14:27:47,989 INFO o.a.j.JMeter: os.arch=amd64
+2022-07-26 14:27:47,989 INFO o.a.j.JMeter: os.version=10.0
+2022-07-26 14:27:47,989 INFO o.a.j.JMeter: file.encoding=Cp1252
+2022-07-26 14:27:47,989 INFO o.a.j.JMeter: java.awt.headless=null
+2022-07-26 14:27:47,989 INFO o.a.j.JMeter: Max memory     =1610612736
+2022-07-26 14:27:47,990 INFO o.a.j.JMeter: Available Processors =4
+2022-07-26 14:27:48,007 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-07-26 14:27:48,008 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-07-26 14:27:48,008 INFO o.a.j.JMeter: JMeterHome=C:\Apps\JMeter\apache-jmeter-5.5
+2022-07-26 14:27:48,008 INFO o.a.j.JMeter: user.dir  =D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch
+2022-07-26 14:27:48,008 INFO o.a.j.JMeter: PWD       =D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch
+2022-07-26 14:27:48,009 INFO o.a.j.JMeter: IP: 192.168.0.58 Name: DESKTOP-68UN0DI FullName: DESKTOP-68UN0DI
+2022-07-26 14:27:48,032 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2022-07-26 14:27:48,378 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: laf:javax.swing.plaf.metal.MetalLookAndFeel
+2022-07-26 14:27:50,544 INFO o.a.j.JMeterGuiLauncher: Loading file: scripts\add-branch.jmx
+2022-07-26 14:27:50,548 INFO o.a.j.s.FileServer: Default base='D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch'
+2022-07-26 14:27:50,550 INFO o.a.j.s.FileServer: Set new base='D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts'
+2022-07-26 14:27:51,021 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-07-26 14:27:51,046 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-07-26 14:27:51,049 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-07-26 14:27:51,053 INFO o.a.j.s.SaveService: Loading file: scripts\add-branch.jmx
+2022-07-26 14:27:51,113 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2022-07-26 14:27:51,585 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-07-26 14:27:51,585 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-07-26 14:27:51,585 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-07-26 14:27:51,587 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-07-26 14:27:51,587 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-07-26 14:27:51,587 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-07-26 14:27:51,657 INFO o.a.j.s.FileServer: Set new base='D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts'
+2022-07-26 14:27:52,401 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-07-26 14:27:52,401 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-07-26 14:27:52,401 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-07-26 14:27:52,402 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-07-26 14:27:52,633 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2022-07-26 14:27:52,934 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:27:52,935 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:27:52,935 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:27:52,935 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:28:35,411 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:28:35,411 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:28:35,412 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:28:35,412 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:28:35,755 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:28:35,755 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:28:35,755 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:28:35,756 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,215 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,215 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,215 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,215 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,396 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,397 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,397 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,397 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,610 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,611 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,611 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,611 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,836 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,836 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,837 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,837 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,998 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,999 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,999 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:05,999 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:06,264 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:06,264 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:06,264 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:06,264 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,593 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,594 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,594 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,594 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,608 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,608 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,608 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,609 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,655 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,655 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,655 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,656 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,688 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-07-26 14:29:09,690 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-07-26 14:29:09,690 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-07-26 14:29:09,692 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-07-26 14:29:09,693 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-07-26 14:29:09,789 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
+2022-07-26 14:29:09,857 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : [TG]Axon-Master
+2022-07-26 14:29:09,857 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group [TG]Axon-Master.
+2022-07-26 14:29:09,858 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-07-26 14:29:09,858 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
+2022-07-26 14:29:09,864 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,864 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,864 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,864 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
+2022-07-26 14:29:09,898 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-07-26 14:29:09,898 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-07-26 14:29:09,903 INFO o.a.j.t.JMeterThread: Thread started: [TG]Axon-Master 1-1
+2022-07-26 14:29:09,929 INFO o.a.j.u.BeanShellTestElement: File deleted successfully
+2022-07-26 14:29:10,000 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = DESKTOP-68UN0DI
+2022-07-26 14:29:10,011 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-07-26 14:29:10,389 INFO o.a.j.s.FileServer: Stored: ..\data\master-data.csv
+2022-07-26 14:29:11,630 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:11,692 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:11,862 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:12,037 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:12,222 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:12,267 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:12,315 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:12,358 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:12,422 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:12,526 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:12,747 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:12,797 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:13,077 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:13,119 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:13,160 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:13,206 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:13,291 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:13,422 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:13,498 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:13,645 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:13,682 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:13,731 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:13,770 INFO o.a.j.u.BeanShellTestElement: 1
+2022-07-26 14:29:13,773 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread [TG]Axon-Master 1-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:..\data\master-data.csv detected for CSV DataSet:DataFile configured with stopThread:true, recycle:false
+2022-07-26 14:29:13,773 INFO o.a.j.t.JMeterThread: Thread finished: [TG]Axon-Master 1-1
+2022-07-26 14:29:13,775 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-07-26 14:29:13,775 INFO o.a.j.s.FileServer: Close: ..\data\master-data.csv
+2022-07-26 14:29:13,784 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2022-07-26 14:29:26,493 WARN o.a.j.p.h.v.RequestViewHTTP: Error decoding query, maybe your request parameters should be encoded:{"email":"admin@bijib.dev","upwd":"Bijib1%","device_type":3,"device_name":"chrome 101.0.4951 Windows 10"}
 java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape (%) pattern - Error at index 0 in: "","
 	at java.net.URLDecoder.decode(URLDecoder.java:232) ~[?:?]
 	at java.net.URLDecoder.decode(URLDecoder.java:142) ~[?:?]
@@ -180,79 +202,3 @@ java.lang.IllegalArgumentException: URLDecoder: Illegal hex characters in escape
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
 	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
 	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
-2022-07-26 12:47:03,286 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,286 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,286 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,286 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,487 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,488 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,488 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,488 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,685 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,685 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,685 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,686 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,857 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,857 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,857 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:03,857 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:04,049 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:04,050 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:04,050 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:04,051 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,340 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,341 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,341 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,341 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,355 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,355 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,355 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,355 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,402 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,402 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,403 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,403 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,448 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2022-07-26 12:47:06,448 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2022-07-26 12:47:06,466 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2022-07-26 12:47:06,478 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : [TG]Axon-Master
-2022-07-26 12:47:06,478 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group [TG]Axon-Master.
-2022-07-26 12:47:06,478 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2022-07-26 12:47:06,478 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=false
-2022-07-26 12:47:06,486 INFO o.a.j.c.IncludeController: loadIncludedElements -- try to load included module: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,486 INFO o.a.j.c.IncludeController: loadIncludedElements -failed for: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,487 INFO o.a.j.c.IncludeController: loadIncludedElements -Attempting to read it from: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,487 INFO o.a.j.s.SaveService: Loading file: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\scripts\..\..\Login\scripts\instant-token.jmx
-2022-07-26 12:47:06,531 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2022-07-26 12:47:06,531 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2022-07-26 12:47:06,533 INFO o.a.j.t.JMeterThread: Thread started: [TG]Axon-Master 1-1
-2022-07-26 12:47:06,541 INFO o.a.j.u.BeanShellTestElement: Failed to delete the file
-2022-07-26 12:47:06,693 INFO o.a.j.s.FileServer: Stored: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\data\master-data.csv
-2022-07-26 12:47:18,843 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:18,919 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:19,260 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:19,562 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:20,070 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:20,125 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:20,197 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:20,243 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:20,381 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:20,513 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:20,849 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:20,972 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:21,269 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:21,365 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:21,432 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:21,522 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:21,624 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:21,833 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:21,928 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:22,364 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:22,462 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:22,504 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:22,539 INFO o.a.j.u.BeanShellTestElement: 1
-2022-07-26 12:47:22,542 INFO o.a.j.t.JMeterThread: Stop Thread seen for thread [TG]Axon-Master 1-1, reason: org.apache.jorphan.util.JMeterStopThreadException: End of file:D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\data\master-data.csv detected for CSV DataSet:DataFile configured with stopThread:true, recycle:false
-2022-07-26 12:47:22,542 INFO o.a.j.t.JMeterThread: Thread finished: [TG]Axon-Master 1-1
-2022-07-26 12:47:22,544 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2022-07-26 12:47:22,544 INFO o.a.j.s.FileServer: Close: D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\data\master-data.csv
-2022-07-26 12:47:22,553 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
