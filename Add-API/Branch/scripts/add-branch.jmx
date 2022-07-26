@@ -734,7 +734,7 @@ vars.put(&quot;pincode&quot;,pincode);
           <CSVDataSet guiclass="TestBeanGUI" testclass="CSVDataSet" testname="DataFile" enabled="true">
             <stringProp name="delimiter">,</stringProp>
             <stringProp name="fileEncoding"></stringProp>
-            <stringProp name="filename">..\data\master-data.csv</stringProp>
+            <stringProp name="filename">D:\Jenkins-JMeter\Jen-JMe-Git\Add-API\Branch\data\master-data.csv</stringProp>
             <boolProp name="ignoreFirstLine">false</boolProp>
             <boolProp name="quotedData">false</boolProp>
             <boolProp name="recycle">false</boolProp>
