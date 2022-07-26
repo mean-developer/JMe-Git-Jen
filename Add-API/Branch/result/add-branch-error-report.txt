@@ -1,51 +1,23 @@
 Failed Test Cases Are :-
-AC-0,  Error_Comment :-  Record added successfully
-AC-2,  Error_Comment :-  The Request Fail Due To Invalid Branch Name.***Branch Name Accepting Numeric Values***
-AC-3,  Error_Comment :-  The Request Fail Due To Invalid Branch Name.***Branch Name Accepting Alphanumeric Value***
-AC-4,  Error_Comment :-  The Request Fail Due To Invalid Branch Name.***Branch Name Should be min 3 characters***
-AC-6,  Error_Comment :-  The Request Fail Due To Invalid Branch Name.***Branch Name Accepting Special Characters***
-AC-7,  Error_Comment :-  The Request Fail Due To Invalid Branch Name.***Branch Name Accepting Empty Value***
-AC-8,  Error_Comment :-  Record added successfully
 AC-9,  Error_Comment :-  The Request Fail Due To Invalid Branch Code.***Branch Code Accepting Alphabets***
 AC-10,  Error_Comment :-  The Request Fail Due To Invalid Branch Code.***Branch Code Accepting Numeric Values***
-AC-11,  Error_Comment :-  Record added successfully
-AC-12,  Error_Comment :-  The Request Fail Due To Invalid Branch Code.***Branch Code Should be min 3 characters***
 AC-13,  Error_Comment :-  The Request Fail Due To Invalid Branch Code.***Branch Code Accepting More Than 8  Charecters***
-AC-14,  Error_Comment :-  The Request Fail Due To Invalid Branch Code.***Branch Code Accepting Special Characters***
-AC-15,  Error_Comment :-  The Request Fail Due To Invalid Branch Code.***Branch Code Accepting Empty Value***
 AC-16,  Error_Comment :-  The Request Fail Due To Invalid Branch Code.***Branch Code Accepting Space***
-AC-17,  Error_Comment :-  Record added successfully
-AC-18,  Error_Comment :-  Record added successfully
-AC-19,  Error_Comment :-  Record added successfully
 AC-20,  Error_Comment :-  The Request Fail Due To Invalid contactNumber.*** contactNumber Accepting Alphabets***
 AC-21,  Error_Comment :-  The Request Fail Due To Invalid contactNumber *** contactNumber Accepting Alphanumeric Value***
 AC-22,  Error_Comment :-  The Request Fail Due To Invalid contactNumber .*** contactNumber Should be min 3 characters***-
 AC-23,  Error_Comment :-  The Request Fail Due To Invalid contactNumber .*** contactNumber Accepting More Than 20  Charecters***
 AC-24,  Error_Comment :-  The Request Fail Due To Invalid contactNumber *** contactNumber Accepting Special Characters***
-AC-25,  Error_Comment :-  Record added successfully
 AC-26,  Error_Comment :-  The Request Fail Due To Invalid contactNumber .*** contactNumber Accepting Space***
-AC-27,  Error_Comment :-  Record added successfully
-AC-28,  Error_Comment :-  Record added successfully
-AC-29,  Error_Comment :-  Record added successfully
-AC-30,  Error_Comment :-  Record added successfully
 AC-31,  Error_Comment :-  The Request Fail Due To Invalid address .*** address Should be min 3 characters***
 AC-32,  Error_Comment :-  The Request Fail Due To Invalid address .*** address Accepting More Than 250  Charecters***
-AC-33,  Error_Comment :-  Record added successfully
-AC-34,  Error_Comment :-  Record added successfully
-AC-35,  Error_Comment :-  Record added successfully
-AC-36,  Error_Comment :-  Record added successfully
 AC-37,  Error_Comment :-  The Request Fail Due To Invalid contactPerson .*** contactPerson Accepting Numeric Value***
 AC-38,  Error_Comment :-  The Request Fail Due To Invalid contactPerson .*** contactPerson Accepting Alphanumeric Value***
 AC-39,  Error_Comment :-  The Request Fail Due To Invalid Contact Person. *** Contact Person Should be min 3 characters***
 AC-40,  Error_Comment :-  The Request Fail Due To Invalid Contact Person. *** Contact Person Accepting More Than 20  Charecters***
 AC-41,  Error_Comment :-  The Request Fail Due To Invalid Contact Person. *** Contact Person Accepting Special Characters***
-AC-42,  Error_Comment :-  Record added successfully
-AC-43,  Error_Comment :-  Record added successfully
 AC-44,  Error_Comment :-  The Request Fail Due To Invalid Pincode. *** Pincode Accepting Alphabets***
 AC-45,  Error_Comment :-  The Request Fail Due To Invalid Pincode. *** Pincode Accepting Alphanumeric Value***
-AC-46,  Error_Comment :-  Record added successfully
-AC-47,  Error_Comment :-  Record added successfully
-AC-48,  Error_Comment :-  Record added successfully
 AC-49,  Error_Comment :-  The Request Fail Due To Invalid Pincode. *** Pincode Should be min 3 characters***
 AC-50,  Error_Comment :-  The Request Fail Due To Invalid Pincode. *** Pincode Accepting More Than 20  Charecters***
 AC-51,  Error_Comment :-  The Request Fail Due To Invalid Pincode. *** Pincode Accepting Special Characters***
