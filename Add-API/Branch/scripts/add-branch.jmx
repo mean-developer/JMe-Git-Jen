@@ -436,7 +436,7 @@ vars.put(&quot;resultFileName&quot;, resultFileName);
         </BeanShellSampler>
         <hashTree/>
         <IncludeController guiclass="IncludeControllerGui" testclass="IncludeController" testname="[IC] Login" enabled="true">
-          <stringProp name="IncludeController.includepath">C:\Apps\JenkinsIntegration\JMe-Git-Jen\Add-API\Login\scripts\instant-token.jmx</stringProp>
+          <stringProp name="IncludeController.includepath">C:\Apps\Jen-Git\JMe-Git-Jen\Add-API\Login\scripts\instant-token.jmx</stringProp>
         </IncludeController>
         <hashTree/>
         <LoopController guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
